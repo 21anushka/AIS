@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ashish.railtellapp.home.home">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/image1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/images3"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MISTAL"
+        android:id="@+id/textView7"
+        android:textSize="40dp"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3"
+        android:textColor="#828206" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Microwave Imaging &amp; Space Technology Applications Laboratory at the Department of Electronics &amp; Communication Engineering, IIT Roorkee, Roorkee, Uttrakhand, INDIA is established by Prof. Dharmendra Singh in 2004 with the help of students and support of IIT Roorkee and various funding agencies like: DRDO, ISRO, DST. RailTel, JAXA (Japan), MHRD, INRIA (France) etc. Lab has the main motive to impart the knowledge in various students’ community from scratch to the advanced level in the field of Microwave Imaging &amp; Space Technology Applications.In addition to that its motive is also to participate in various technological related issues and provide the solution to end users. Lab deals for development and analysis of active and passive microwave sensors for various applications. Lab is playing a main role in various space science and technology projects. Students are the main strength of the lab."
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="more"
+        android:id="@+id/n1"
+        android:textSize="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Next Page>>"
+        android:id="@+id/n2"
+        android:textSize="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8" />
+
+</RelativeLayout>

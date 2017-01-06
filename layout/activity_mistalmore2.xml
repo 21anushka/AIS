@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ashish.railtellapp.home.mistalmore2">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="सैटेलाइट आधारित कृषि सूचना प्रणाली"
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="26dp"
+        android:textColor="#828206" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="भारत का कृषि क्षेत्र सांख्यिकीय रूप से सबसे बड़ा आर्थिक क्षेत्र है, जो रोजगार का सबसे बड़ा स्रोत एवं समग्र सामाजिक विस्तार का प्रमुख भाग बनकर रोजगार के आधार का निर्माण करता है। उच्च कृषि उत्पादकता के लिए ऐसी कृषि प्रथाओं को लागू करने की जरूरत है जो केवल समुचित कृषि/फसल निगरानी रखने के द्वारा ही निष्पादित की जा सकती है। इस प्रयोजन के लिए सैटेलाइट आधारित कृषि सूचना प्रणाली (एसबीएआईएस) विकसित की गई है। उत्तराखंड राज्य में जिला एवं तहसील स्तर पर कृषि/फसल की निगरानी के लिए सैटेलाइट आधारित कृषि सूचना प्रणाली भारत की पहली सैटेलाइट डाटा के आधार पर एकमात्र ऑनलाइन सूचना प्रणाली है। यह प्रणाली बहु अस्थायी सैटेलाइट डाटा के विश्लेषण पर आधारित है और प्रमुख रूप से दो मॉड्यूलों नामतः &quot;वर्गीकरण&quot; और “फसल की निगरानी’’ से बनी हुई है।  वर्गीकरण मॉड्यूल में, हरीयाली/वनस्पति के स्थानों की पहचान हो सकती है, जैसा कि कृषि क्षेत्र दूसरी आच्छादित भूमि श्रेणियों से अलग होता है। कृषि क्षेत्र की पहचान करने के अलावा इस मॉड्यूल के माध्यम से, विगत वर्षों से चयनित वर्ष तक हरापन के क्षेत्र में परिवर्तन का भी अनुमान लगाया जा सकता है, जिससे एक काल अवधि के भीतर वनस्पति क्षेत्र में बदलाव की जानकारी मिलती है।  यह फसल निगरानी मॉड्यूल सामान्यीकृत व्यतिरेक वनस्पति सूचकांक (एनडीवीआई) पर आधारित है जो प्रकाश संश्लेषण प्रक्रिया या क्लोरोफिल तृप्ति पर आधारित पादप / फसल के &quot;हरेपन&quot; को मापता है और इस प्रकार फसल के स्वास्थ्य को पहचानता है। फसल के स्वास्थ्य की निगरानी के लिए दो विकल्प उपलब्ध हैं, पहला जूलियन डेट वाइज तथा दूसरा ईयर वाइज है। जूलियन डेट वाइज विकल्प में फसल स्वास्थ्य पर मौसमवार प्रभाव की निगरानी रखी जा सकती है और विशिष्ट काल अवधि में फसल के स्वास्थ्य में परिवर्तनों का भी अवलोकन किया जा सकता है। ईयर वाइज विकल्प के जरिए, सभी संबंधित वर्षों के लिए वनस्पति परिस्थिति (स्वस्थ / सामान्य / कमजोर) के आकलन के साथ-साथ चुने गए वर्षों के बीच वनस्पति में वर्षवार उतार चढ़ाव की भौतिक परिस्थिति की भी पहचान की जा सकती है।"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp" />
+</RelativeLayout>
+</ScrollView>

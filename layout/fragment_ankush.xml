@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashish.railtellapp.Ankush">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ankush       Agrawal"
+        android:id="@+id/textView42"
+        android:textColor="#828206"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Research Scholar,"
+        android:id="@+id/textView43"
+        android:textSize="10dp"
+        android:layout_below="@+id/textView42"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Department of Computer Science &amp; Engineering, ,"
+        android:id="@+id/textView44"
+        android:layout_alignParentStart="true"
+        android:textSize="10dp"
+        android:layout_below="@+id/textView43"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="IIT Roorkee"
+        android:id="@+id/textView45"
+        android:layout_alignParentStart="true"
+        android:textSize="10dp"
+        android:layout_below="@+id/textView44"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
