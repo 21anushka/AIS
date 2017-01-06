@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashish.railtellapp.fragments.Home">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:text="    Satellite Based Agriculture Information System"
+        android:id="@+id/textView"
+        android:textColor="#828206"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Developed By: Prof Dharmendra Singh &amp; Team"
+        android:id="@+id/textView2"
+        android:textSize="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:textColor="#828206"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sponsored By: RailTel - IIT Roorkee Centre of Excellence in Telecom (RICET)"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:textColor="#828206"
+        android:textSize="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ACK: Thanks to Reliance Jio for providing Cloud"
+        android:id="@+id/textView4"
+        android:textColor="#828206"
+        android:textSize="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

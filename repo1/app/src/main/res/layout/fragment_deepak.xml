@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashish.railtellapp.Deepak">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deepak        Murugan"
+        android:id="@+id/textView47"
+        android:textColor="#828206"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Research Scholar,"
+        android:id="@+id/textView48"
+        android:textSize="10dp"
+        android:layout_below="@+id/textView47"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Department of Electronics &amp; Communication, "
+        android:id="@+id/textView49"
+        android:layout_alignParentStart="true"
+        android:textSize="10dp"
+        android:layout_below="@+id/textView48"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="IIT Roorkee"
+        android:id="@+id/textView50"
+        android:layout_alignParentStart="true"
+        android:textSize="10dp"
+        android:layout_below="@+id/textView49"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

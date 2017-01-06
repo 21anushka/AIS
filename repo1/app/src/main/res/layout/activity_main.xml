@@ -9,92 +9,171 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ashish.railtellapp.MainActivity">
 
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:text="    Satellite Based Agriculture Information System"
+    android:id="@+id/textView"
+    android:textColor="#828206"
+    android:textSize="@dimen/abc_action_bar_content_inset_material"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
 
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/username_cover"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        >
-    <EditText
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Developed By: Prof Dharmendra Singh &amp; Team"
+    android:id="@+id/textView2"
+    android:textSize="@dimen/abc_action_bar_overflow_padding_end_material"
+    android:textColor="#828206"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true" />
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="UserName"
-        android:id="@+id/login_mobile"
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Sponsored By: RailTel - IIT Roorkee Centre of Excellence in Telecom (RICET)"
+    android:id="@+id/textView3"
+    android:layout_below="@+id/textView2"
+    android:textColor="#828206"
+    android:textSize="@dimen/abc_action_bar_overflow_padding_end_material"
+    android:layout_alignRight="@+id/textView"
+    android:layout_alignEnd="@+id/textView" />
 
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        />
-    </android.support.design.widget.TextInputLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="ACK: Thanks to Reliance Jio for providing Cloud"
+    android:id="@+id/textView4"
+    android:textColor="#828206"
+    android:textSize="@dimen/abc_action_bar_overflow_padding_end_material"
+    android:layout_below="@+id/textView3"
+    android:layout_centerHorizontal="true" />
 
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/password_cover"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/username_cover"
-        >
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:hint="Password"
-        android:id="@+id/login_password"
-        android:password="true" />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:text="Home"
+    android:id="@+id/b1"
+    android:layout_centerVertical="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:onClick="init()" />
 
-    </android.support.design.widget.TextInputLayout>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="Research Team"
+    android:id="@+id/b5"
+    android:layout_below="@+id/b1"
+    android:layout_alignParentEnd="true" />
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:id="@+id/imageView"
+    android:src="@drawable/image1"
+    android:layout_below="@+id/textView4"
+    android:layout_alignParentStart="true"
+    android:layout_toStartOf="@+id/imageView2" />
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:id="@+id/imageView2"
+    android:src="@drawable/images3"
+    android:layout_alignTop="@+id/imageView"
+    android:layout_alignEnd="@+id/email"
+    android:layout_alignStart="@+id/btnLinkToRegisterScreen" />
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:id="@+id/email"
+    android:hint="username"
+    android:visibility="visible"
+    android:layout_above="@+id/password"
+    android:layout_alignParentEnd="true"
+    android:layout_alignStart="@+id/password" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Username"
+    android:id="@+id/textView6"
+    android:textColor="#828206"
+    android:theme="@style/Animation.AppCompat.Dialog"
+    android:textSize="20dp"
+    android:paddingStart="1dp"
+    android:paddingEnd="1dp"
+    android:layout_alignTop="@+id/email"
+    android:layout_above="@+id/textView5"
+    android:layout_alignParentStart="true" />
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    android:ems="10"
+    android:id="@+id/password"
+    android:hint="password"
+    android:layout_above="@+id/btnLogin"
+    android:layout_alignEnd="@+id/textView3"
+    android:layout_alignParentEnd="true" />
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:text="Sign in"
+    android:id="@+id/btnLogin"
+    android:layout_above="@+id/b7"
+    android:layout_alignEnd="@+id/password" />
+
+<Button
+    android:layout_width="170dp"
+    android:layout_height="40dp"
+    android:text="Forgot Password"
+    android:id="@+id/b7"
+    android:layout_alignTop="@+id/btnLinkToRegisterScreen"
+    android:layout_alignParentStart="true" />
+
+<Button
+    android:layout_width="170dp"
+    android:layout_height="40dp"
+    android:text="New User ?"
+    android:id="@+id/btnLinkToRegisterScreen"
+    android:singleLine="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignEnd="@+id/email" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:text="Gallery"
+    android:id="@+id/b3"
+    android:layout_below="@+id/b5"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="password"
+    android:id="@+id/textView5"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#828206"
+    android:layout_alignTop="@+id/password"
+    android:layout_alignParentStart="true"
+    android:layout_above="@+id/btnLogin"
+    android:layout_alignEnd="@id/textView5" />
 
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:id="@+id/button_login"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_below="@id/password_cover"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Forgot Password?"
-        android:layout_below="@id/button_login"
-        android:textColor="@color/colorPrimary"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/forgot_password"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:textSize="20sp"
-        />
-
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Change Password"
-        android:layout_below="@id/forgot_password"
-        android:textColor="@color/colorPrimary"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/change_password"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:textSize="20sp"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="New User?"
-        android:layout_below="@id/change_password"
-        android:textColor="@color/colorPrimary"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/new_user"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="20dp"
-        android:textSize="20sp"
-        android:background="#0000"
-        />
 </RelativeLayout>
+

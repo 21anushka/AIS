@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashish.railtellapp.fragments.Gallery">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView9"
+        android:src="@drawable/image1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="                        Gallery"
+        android:id="@+id/textView51"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_toRightOf="@+id/imageView9"
+        android:layout_toEndOf="@+id/imageView9"
+        android:textSize="40dp"
+        android:textColor="#828206"
+        android:layout_gravity="center_horizontal|top" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView10"
+        android:src="@drawable/images3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right|top" />
+
+    <ImageButton
+        android:layout_width="167dp"
+        android:layout_height="167dp"
+        android:id="@+id/imagebutton1"
+        android:src="@drawable/pic1a"
+        android:cropToPadding="false"
+        android:contextClickable="false"
+        android:baselineAlignBottom="false"
+        android:scaleType="centerCrop"
+        android:layout_above="@+id/g1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:layout_gravity="left|center_vertical" />
+
+    <ImageButton
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/pic2a"
+        android:scaleType="centerCrop"
+        android:layout_above="@+id/g2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:layout_gravity="right|center_vertical" />
+
+    <ImageButton
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/pic3a"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/textView61"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:layout_gravity="center_horizontal|bottom" />
+
+
+</FrameLayout>

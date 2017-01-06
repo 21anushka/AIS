@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ashish.railtellapp.home.mistalnext1">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView5"
+        android:src="@drawable/image1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView6"
+        android:src="@drawable/images3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MISTAL"
+        android:id="@+id/textView11"
+        android:textSize="40dp"
+        android:textColor="#828206"
+        android:layout_alignBottom="@+id/imageView6"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="प्रो. धर्मेन्द्र सिंह द्वारा 2004 में छात्रों की सहायता तथा भारतीय प्रद्योगिकी संस्थान रुड़की और रक्षा अनुसंधान एवं विकास संगठन, भारतीय अंतरिक्ष अनुसंधान संगठन, विज्ञान एवं प्रौद्योगिकी विभाग, रेलटेल, जे.ए.एक्स. ए. (जापान), मानव संसाधन विकास मंत्रालय, आई.एन.आर.आई.ए. (फ्रांस) आदि जैसे निधीयन अभिकरणों (फंडिंग एजेंसीज) के सहयोग से इलैक्ट्राॅनिकी एवं संचार इंजीनियरी विभाग, भारतीय प्रौद्योगिकी संस्थान रुड़की, रुड़की में माइक्रोवेब बिंब विधान (इमेजिंग) तथा अंतरिक्ष प्रौद्योगिकी अनुप्रयोग प्रयोगशाला की स्थापना की गई । इस प्रयोगशाला का मुख्य ध्येय माइक्रोवेब बिंब विधान (इमेजिंग) तथा अंतरिक्ष प्रौद्योगिकी अनुप्रयोग के क्षेत्र में बहुत कम से लेकर उन्नत स्तर तक के विभिन्न छात्र समुदायों को ज्ञान प्रदान करना है । इसके अतिरिक्त इसका ध्येय प्रौद्योगिकी संबंधी विभिन्न मामलों में सहभागिता करना और अंत में उपयोगकर्ताओं (एंड यूजर्स) को समस्यों के हल उपलब्ध कराना भी है । यह प्रयोगशाला विभिन्न अनुप्रयोगों हेतु सक्रिय (एक्टिव) तथा निष्क्रिय (पैस्सिव) माइक्रोवेब के विकास एवं विश्लेषण संबंधी कार्य करती है । विभिन्न अंतरिक्ष विज्ञान तथा प्रौद्योगिकी परियोजनाओं में यह प्रयोगशाला महत्वपूर्ण भूमिका अदा कर रही है । प्रयोगशाला की मुख्य ताकत इसके छात्र हैं ।"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="More"
+        android:textSize="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/b3" />
+
+</RelativeLayout>
