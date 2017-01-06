@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Agriculture Information System</string>
+    <string name="title_activity_login_support">LoginSupport</string>
+</resources>
